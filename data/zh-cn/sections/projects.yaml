@@ -1,0 +1,44 @@
+# section information
+section:
+  name: 项目
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: .Net
+  filter: "dotnet"
+- name: Dockerfile
+  filter: "dockerfile"
+- name: Tools
+  filter: "tools"
+- name: Web crawler
+  filter: "crawler"
+
+# your projects
+projects:
+- name: Neuz/DevKit
+  # logo: /images/sections/projects/kubernetes.png
+  # role: Contributor
+  # timeline: "March 2018 - Present"
+  repo: https://github.com/Neuz/DevKit
+  url: https://github.com/Neuz/DevKit
+  summary: '.Net 常用工具类库'
+  tags: ["dotnet", "tools", "nuget"]
+- name: Neuz/Dockerfiles
+  repo: https://github.com/Neuz/Dockerfiles
+  url: https://github.com/Neuz/Dockerfiles
+  summary: '常用服务的dockerfile。'
+  tags: ["dockerfile"]
+- name: cn_area
+  repo: https://github.com/Neuz/cn_area
+  url: https://github.com/Neuz/cn_area
+  summary: '国家统计局-全国统计用区划代码和城乡划分代码'
+  tags: ["crawler"]
+

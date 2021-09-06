@@ -1,0 +1,18 @@
+# some information about you
+name: "Neuz"
+# nickname: "John"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+# greeting: "Hi, I am"
+image: "/images/site/logo.svg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "i@neuz.net"
+  github: "github.com/Neuz"
+
+# some summary about what you do
+summary:
+  - neuz.net
+  - 匠心品质，让开发更简单
+  # - I love servers
+  # - I work on open-source projects
+  # - I love to work with some fun projects
